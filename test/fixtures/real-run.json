@@ -1,0 +1,36 @@
+{
+  "collectedAt": "2026-09-29T18:27:19.446Z",
+  "reason": "no-model-completed",
+  "candidates": [
+    {
+      "modelID": "laude Opus 5",
+      "providerID": "test",
+      "reason": "connected-free-active"
+    },
+    {
+      "modelID": "gpt-6-luna-free",
+      "providerID": "openai_api",
+      "reason": "connected-free-active"
+    },
+    {
+      "modelID": "deepseek-v4-flash-free",
+      "providerID": "custom",
+      "reason": "connected-free-active"
+    }
+  ],
+  "errors": [
+    {
+      "error": "answer=\"trả lời đúng một chữ OK\"",
+      "model": "test/laude Opus 5"
+    },
+    {
+      "error": "answer=\"trả lời đúng một chữ OK\"",
+      "model": "openai_api/gpt-6-luna-free"
+    },
+    {
+      "error": "answer=\"trả lời đúng một chữ OK\\nOK\"",
+      "model": "custom/deepseek-v4-flash-free"
+    }
+  ],
+  "synthetic": true
+}

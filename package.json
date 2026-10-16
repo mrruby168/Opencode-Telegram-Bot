@@ -1,0 +1,5 @@
+{"dependencies": {"@opencode-ai/sdk": "^1.18.32", "dotenv": "^17.4.2", "grammy": "^1.45.1"}, "engines": {"node": ">=22.14"}, "name": "tele-commander", "private": true,   "scripts": {
+    "doctor": "node scripts/doctor.mjs",
+    "start": "node src/bot.js",
+    "test": "node scripts/check-syntax.mjs && node --test \"test/*.test.js\""
+  }, "type": "module", "version": "0.1.0"}

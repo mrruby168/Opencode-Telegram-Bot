@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560">
+<rect width="900" height="560" fill="#fff"/>
+<text x="20" y="30" font-size="18" font-family="Arial" font-weight="bold">PROJECT BLUEPRINT - tele-commander v2 (chat relay)</text>
+<rect x="20" y="50" width="130" height="70" rx="8" fill="#E3F2FD" stroke="#2481CC"/>
+<text x="30" y="75" font-size="13" font-family="Arial">User Telegram</text>
+<text x="30" y="95" font-size="11" font-family="Arial">text thường</text>
+<rect x="165" y="50" width="150" height="70" rx="8" fill="#FFF3E0" stroke="#FB8C00"/>
+<text x="175" y="75" font-size="13" font-family="Arial">Router+Menu</text>
+<text x="175" y="95" font-size="11" font-family="Arial">IDLE/AWAIT/RUNNING</text>
+<rect x="330" y="50" width="150" height="70" rx="8" fill="#E8F5E9" stroke="#43A047"/>
+<text x="340" y="75" font-size="13" font-family="Arial">Runner (SSE)</text>
+<text x="340" y="95" font-size="11" font-family="Arial">promptAsync+idle</text>
+<rect x="495" y="50" width="150" height="70" rx="8" fill="#EDE7F6" stroke="#5E35B1"/>
+<text x="505" y="75" font-size="13" font-family="Arial">Opencode srv</text>
+<text x="505" y="95" font-size="11" font-family="Arial">Basic auth+spawn</text>
+<rect x="660" y="50" width="110" height="70" rx="8" fill="#FFEBEE" stroke="#E53935"/>
+<text x="670" y="75" font-size="13" font-family="Arial">Power</text>
+<text x="670" y="95" font-size="11" font-family="Arial">exit code</text>
+<rect x="780" y="50" width="100" height="70" rx="8" fill="#F3E5F5" stroke="#8E24AA"/>
+<text x="790" y="75" font-size="12" font-family="Arial">Perm/Report</text>
+<text x="790" y="95" font-size="11" font-family="Arial">nút+TTL</text>
+<rect x="20" y="140" width="860" height="150" rx="8" fill="#F5F5F5" stroke="#999"/>
+<text x="30" y="165" font-size="13" font-family="Arial" font-weight="bold">Workflow: /start(health OK/UNAUTH/DOWN) → menu 5 nút 2-2-1 → AWAIT → text → queue → idle → [Tiếp tục][Về menu]</text>
+<text x="30" y="187" font-size="11" font-family="Arial">Permission/question: DELAY + nút once/always*/reject (*always chỉ edit trong project), 5 phút tự Từ chối, timeout tạm dừng</text>
+<text x="30" y="207" font-size="11" font-family="Arial">Power: YES duy nhất chạy %SystemRoot%\System32\shutdown.exe args cố định; exit 0 OK (1191/1116 UNVERIFIED)</text>
+<text x="30" y="227" font-size="11" font-family="Arial">Report: nút Hôm nay/7 ngày, đếm bằng code TRONG task, AI chỉ tóm tắt. /stop = abort thật + xóa queue</text>
+<text x="30" y="247" font-size="11" font-family="Arial">AGENTS.md: prefix mọi prompt + opencode tự nạp project root; đọc ngoài dir → luồng permission</text>
+<text x="30" y="267" font-size="11" font-family="Arial">Risk: secret chỉ trong .env; whitelist cả callback; người lạ im lặng</text>
+<rect x="20" y="310" width="860" height="220" rx="8" fill="#FAFAFA" stroke="#999"/>
+<text x="30" y="335" font-size="13" font-family="Arial" font-weight="bold">Code Map: bot.js → router.js → [runner.js | server.js | permissions.js | power.js | reporter.js | menu.js]</text>
+<text x="30" y="357" font-size="11" font-family="Arial">infra: config.js (loadConfig thuần) + common.js (paths/chunk/mask/tasks/queue) + state.js (sessions/convo) + opencode-exec.js (SDK bọc timeout)</text>
+<text x="30" y="377" font-size="11" font-family="Arial">test/: config/common/queue/server/state-store/runner/permission/power/convo/start/encoding/watcher-close/doctor/pack/realrun + fixtures/events-smoke.json + real-run.json</text>
+<text x="30" y="397" font-size="11" font-family="Arial">scripts/: check-syntax.mjs (trong npm test) + smoke.mjs (tay, cổng 4097) + doctor.mjs + pack.mjs</text>
+<text x="30" y="417" font-size="11" font-family="Arial">UI: UI_SPEC.json (menu/state/permission) + UI_PREVIEW.png LỖI THỜI (ghi DECISIONS)</text>
+<text x="30" y="437" font-size="11" font-family="Arial">Validation: MAP ↔ ARCHITECTURE ↔ UI_SPEC ↔ BLUEPRINT ↔ code (v2.0-chat-relay)</text>
+<text x="30" y="457" font-size="11" font-family="Arial">opencode.proposed.json: bash/edit ask + deny **/.env* (trừ .example) — KHÔNG tự ghi đè</text>
+<text x="30" y="480" font-size="11" font-family="Arial">logs/: bot.log + tasks.json + state.json (atomic, không DB)</text>
+<defs><marker id="a" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6" fill="#333"/></marker></defs>
+</svg>

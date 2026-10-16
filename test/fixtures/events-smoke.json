@@ -1,0 +1,2078 @@
+{
+  "collectedAt": "2026-09-29T18:25:15.942Z",
+  "prompts": [
+    {
+      "events": [
+        {
+          "id": "evt_0ee69fe450010qTxiAkUm45bc0",
+          "type": "server.connected",
+          "properties": {}
+        },
+        {
+          "id": "evt_0ee69fe76001LAf1GKNesceOss",
+          "type": "session.updated",
+          "properties": {
+            "sessionID": "ses_f119601cdffeK8Ja7GvJe4qvDK",
+            "info": {
+              "id": "ses_f119601cdffeK8Ja7GvJe4qvDK",
+              "slug": "hidden-moon",
+              "projectID": "global",
+              "directory": "D:\\CODE\\Runtime\\Python\\Temp\\tele-smoke-9NicZY",
+              "path": "CODE/Runtime/Python/Temp/tele-smoke-9NicZY",
+              "title": "smoke-ok",
+              "agent": "build",
+              "model": {
+                "id": "laude Opus 5",
+                "providerID": "test",
+                "variant": "default"
+              },
+              "version": "1.18.33",
+              "cost": 0,
+              "tokens": {
+                "input": 0,
+                "output": 0,
+                "reasoning": 0,
+                "cache": {
+                  "read": 0,
+                  "write": 0
+                }
+              },
+              "time": {
+                "created": 1790706318898,
+                "updated": 1790706318964
+              }
+            }
+          }
+        },
+        {
+          "id": "evt_0ee69fe81001gLE0ZQLF5L7L7y",
+          "type": "message.updated",
+          "properties": {
+            "sessionID": "ses_f119601cdffeK8Ja7GvJe4qvDK",
+            "info": {
+              "id": "msg_0ee69fe74001DD7rtQXL7WH0Wz",
+              "role": "user",
+              "sessionID": "ses_f119601cdffeK8Ja7GvJe4qvDK",
+              "time": {
+                "created": 1790706318964
+              },
+              "agent": "build",
+              "model": {
+                "providerID": "test",
+                "modelID": "laude Opus 5"
+              }
+            }
+          }
+        },
+        {
+          "id": "evt_0ee69fe850014dtFF9PgrUImM1",
+          "type": "message.part.updated",
+          "properties": {
+            "sessionID": "ses_f119601cdffeK8Ja7GvJe4qvDK",
+            "part": {
+              "type": "text",
+              "text": "trả lời đúng một chữ OK",
+              "messageID": "msg_0ee69fe74001DD7rtQXL7WH0Wz",
+              "sessionID": "ses_f119601cdffeK8Ja7GvJe4qvDK",
+              "id": "prt_0ee69fe7f001UlWRQ1HCNqw1II"
+            },
+            "time": 1790706318981
+          }
+        },
+        {
+          "id": "evt_0ee69fe8a001vdfv9GXmL6I6Mw",
+          "type": "session.updated",
+          "properties": {
+            "sessionID": "ses_f119601cdffeK8Ja7GvJe4qvDK",
+            "info": {
+              "id": "ses_f119601cdffeK8Ja7GvJe4qvDK",
+              "slug": "hidden-moon",
+              "projectID": "global",
+              "directory": "D:\\CODE\\Runtime\\Python\\Temp\\tele-smoke-9NicZY",
+              "path": "CODE/Runtime/Python/Temp/tele-smoke-9NicZY",
+              "title": "smoke-ok",
+              "agent": "build",
+              "model": {
+                "id": "laude Opus 5",
+                "providerID": "test",
+                "variant": "default"
+              },
+              "version": "1.18.33",
+              "cost": 0,
+              "tokens": {
+                "input": 0,
+                "output": 0,
+                "reasoning": 0,
+                "cache": {
+                  "read": 0,
+                  "write": 0
+                }
+              },
+              "time": {
+                "created": 1790706318898,
+                "updated": 1790706318985
+              }
+            }
+          }
+        },
+        {
+          "id": "evt_0ee69fe91001jzQc0u4lI93s7S",
+          "type": "session.status",
+          "properties": {
+            "sessionID": "ses_f119601cdffeK8Ja7GvJe4qvDK",
+            "status": {
+              "type": "busy"
+            }
+          }
+        },
+        {
+          "id": "evt_0ee69fe970014vvbD4XKS1U4GY",
+          "type": "message.updated",
+          "properties": {
+            "sessionID": "ses_f119601cdffeK8Ja7GvJe4qvDK",
+            "info": {
+              "id": "msg_0ee69fe970012VcQ9gobdZ9SSd",
+              "parentID": "msg_0ee69fe74001DD7rtQXL7WH0Wz",
+              "role": "assistant",
+              "mode": "build",
+              "agent": "build",
+              "path": {
+                "cwd": "D:\\CODE\\Runtime\\Python\\Temp\\tele-smoke-9NicZY",
+                "root": "/"
+              },
+              "cost": 0,
+              "tokens": {
+                "input": 0,
+                "output": 0,
+                "reasoning": 0,
+                "cache": {
+                  "read": 0,
+                  "write": 0
+                }
+              },
+              "modelID": "laude Opus 5",
+              "providerID": "test",
+              "time": {
+                "created": 1790706318999
+              },
+              "sessionID": "ses_f119601cdffeK8Ja7GvJe4qvDK"
+            }
+          }
+        },
+        {
+          "id": "evt_0ee69fefe001Yu0LeZikfzwd1W",
+          "type": "session.updated",
+          "properties": {
+            "sessionID": "ses_f119601cdffeK8Ja7GvJe4qvDK",
+            "info": {
+              "id": "ses_f119601cdffeK8Ja7GvJe4qvDK",
+              "slug": "hidden-moon",
+              "projectID": "global",
+              "directory": "D:\\CODE\\Runtime\\Python\\Temp\\tele-smoke-9NicZY",
+              "path": "CODE/Runtime/Python/Temp/tele-smoke-9NicZY",
+              "title": "smoke-ok",
+              "agent": "build",
+              "model": {
+                "id": "laude Opus 5",
+                "providerID": "test",
+                "variant": "default"
+              },
+              "version": "1.18.33",
+              "summary": {
+                "additions": 0,
+                "deletions": 0,
+                "files": 0
+              },
+              "cost": 0,
+              "tokens": {
+                "input": 0,
+                "output": 0,
+                "reasoning": 0,
+                "cache": {
+                  "read": 0,
+                  "write": 0
+                }
+              },
+              "time": {
+                "created": 1790706318898,
+                "updated": 1790706319101
+              }
+            }
+          }
+        },
+        {
+          "id": "evt_0ee69ff01001EjmJTn7sZkEmli",
+          "type": "session.diff",
+          "properties": {
+            "sessionID": "ses_f119601cdffeK8Ja7GvJe4qvDK",
+            "diff": []
+          }
+        },
+        {
+          "id": "evt_0ee69ff03001ZxzeZsK3YHqg2S",
+          "type": "message.updated",
+          "properties": {
+            "sessionID": "ses_f119601cdffeK8Ja7GvJe4qvDK",
+            "info": {
+              "role": "user",
+              "time": {
+                "created": 1790706318964
+              },
+              "agent": "build",
+              "model": {
+                "providerID": "test",
+                "modelID": "laude Opus 5"
+              },
+              "id": "msg_0ee69fe74001DD7rtQXL7WH0Wz",
+              "sessionID": "ses_f119601cdffeK8Ja7GvJe4qvDK",
+              "summary": {
+                "diffs": []
+              }
+            }
+          }
+        },
+        {
+          "id": "evt_0ee6a0020001rdu7JTHDVMz4zb",
+          "type": "plugin.added",
+          "properties": {
+            "id": "core/config-reference"
+          }
+        },
+        {
+          "id": "evt_0ee6a0021001QIip90o4b6Tgiy",
+          "type": "plugin.added",
+          "properties": {
+            "id": "agent"
+          }
+        },
+        {
+          "id": "evt_0ee6a0022001UOHE3ztNb3Pt18",
+          "type": "plugin.added",
+          "properties": {
+            "id": "command"
+          }
+        },
+        {
+          "id": "evt_0ee6a0024001mhlYmBT6a73xRE",
+          "type": "plugin.added",
+          "properties": {
+            "id": "skill"
+          }
+        },
+        {
+          "id": "evt_0ee6a0027001FvfCS6xWvrEG5y",
+          "type": "plugin.added",
+          "properties": {
+            "id": "models-dev"
+          }
+        },
+        {
+          "id": "evt_0ee6a0027002Okn1lLSaxij13g",
+          "type": "plugin.added",
+          "properties": {
+            "id": "config-agent"
+          }
+        },
+        {
+          "id": "evt_0ee6a002a001MEm5vHRQMViAS5",
+          "type": "plugin.added",
+          "properties": {
+            "id": "config-command"
+          }
+        },
+        {
+          "id": "evt_0ee6a002b001ijuywt5Dkh8tJU",
+          "type": "plugin.added",
+          "properties": {
+            "id": "config-skill"
+          }
+        },
+        {
+          "id": "evt_0ee6a002c0011yapHEo8KTiuhU",
+          "type": "plugin.added",
+          "properties": {
+            "id": "alibaba"
+          }
+        },
+        {
+          "id": "evt_0ee6a002d001rdFw7yebJQLFzr",
+          "type": "plugin.added",
+          "properties": {
+            "id": "amazon-bedrock"
+          }
+        },
+        {
+          "id": "evt_0ee6a002d0022jQ6HuUHYA4xGH",
+          "type": "plugin.added",
+          "properties": {
+            "id": "anthropic"
+          }
+        },
+        {
+          "id": "evt_0ee6a002e001WLpvotuO4wE7FG",
+          "type": "plugin.added",
+          "properties": {
+            "id": "azure-cognitive-services"
+          }
+        },
+        {
+          "id": "evt_0ee6a0078001eAmxO25D5opkoW",
+          "type": "plugin.added",
+          "properties": {
+            "id": "azure"
+          }
+        },
+        {
+          "id": "evt_0ee6a0078002MwplvVsRmBFHcV",
+          "type": "plugin.added",
+          "properties": {
+            "id": "cerebras"
+          }
+        },
+        {
+          "id": "evt_0ee6a0079001IEPW1GFnnR27T0",
+          "type": "plugin.added",
+          "properties": {
+            "id": "cloudflare-ai-gateway"
+          }
+        },
+        {
+          "id": "evt_0ee6a007a001LIrY5DojxlbLv2",
+          "type": "plugin.added",
+          "properties": {
+            "id": "cloudflare-workers-ai"
+          }
+        },
+        {
+          "id": "evt_0ee6a007a002K5IP83UqLISDjN",
+          "type": "plugin.added",
+          "properties": {
+            "id": "cohere"
+          }
+        },
+        {
+          "id": "evt_0ee6a007a003ybetpuzkvTxYXy",
+          "type": "plugin.added",
+          "properties": {
+            "id": "deepinfra"
+          }
+        },
+        {
+          "id": "evt_0ee6a007b001mhjThpUQjCex1Z",
+          "type": "plugin.added",
+          "properties": {
+            "id": "gateway"
+          }
+        },
+        {
+          "id": "evt_0ee6a007b0021s5zRvUoNO1Dq3",
+          "type": "plugin.added",
+          "properties": {
+            "id": "github-copilot"
+          }
+        },
+        {
+          "id": "evt_0ee6a007c001qsCaGMaB9kFmqh",
+          "type": "plugin.added",
+          "properties": {
+            "id": "gitlab"
+          }
+        },
+        {
+          "id": "evt_0ee6a007c002z18y3Yhh2DXpN7",
+          "type": "plugin.added",
+          "properties": {
+            "id": "google"
+          }
+        },
+        {
+          "id": "evt_0ee6a007d0015sqAc8C7EFaMIa",
+          "type": "plugin.added",
+          "properties": {
+            "id": "google-vertex-anthropic"
+          }
+        },
+        {
+          "id": "evt_0ee6a007d002CfenSbAH7tZ8Qy",
+          "type": "plugin.added",
+          "properties": {
+            "id": "google-vertex"
+          }
+        },
+        {
+          "id": "evt_0ee6a0086001bgLGhVo10xhp59",
+          "type": "plugin.added",
+          "properties": {
+            "id": "groq"
+          }
+        },
+        {
+          "id": "evt_0ee6a00940016yrBk7nHw1OXO9",
+          "type": "plugin.added",
+          "properties": {
+            "id": "kilo"
+          }
+        },
+        {
+          "id": "evt_0ee6a0095001VLjapg2m3DnvLY",
+          "type": "plugin.added",
+          "properties": {
+            "id": "llmgateway"
+          }
+        },
+        {
+          "id": "evt_0ee6a0095002HbrD32XyiFdN0i",
+          "type": "plugin.added",
+          "properties": {
+            "id": "mistral"
+          }
+        },
+        {
+          "id": "evt_0ee6a0096001vwnKvn6BwXhJZj",
+          "type": "plugin.added",
+          "properties": {
+            "id": "nvidia"
+          }
+        },
+        {
+          "id": "evt_0ee6a009b001VLkYaNDUDmYnmK",
+          "type": "plugin.added",
+          "properties": {
+            "id": "opencode"
+          }
+        },
+        {
+          "id": "evt_0ee6a009b002ZXyDtaH9ZURILH",
+          "type": "plugin.added",
+          "properties": {
+            "id": "snowflake-cortex"
+          }
+        },
+        {
+          "id": "evt_0ee6a009c001guZeUkRYJceGd8",
+          "type": "plugin.added",
+          "properties": {
+            "id": "openai-compatible"
+          }
+        },
+        {
+          "id": "evt_0ee6a009d001654VEgTUaZ4m8f",
+          "type": "plugin.added",
+          "properties": {
+            "id": "openai"
+          }
+        },
+        {
+          "id": "evt_0ee6a009e0015jVDeGPBMDXIXF",
+          "type": "plugin.added",
+          "properties": {
+            "id": "openrouter"
+          }
+        },
+        {
+          "id": "evt_0ee6a009f001lBUYAc6ZgeVv7q",
+          "type": "plugin.added",
+          "properties": {
+            "id": "perplexity"
+          }
+        },
+        {
+          "id": "evt_0ee6a00a0001tikualCFmmw0Am",
+          "type": "plugin.added",
+          "properties": {
+            "id": "sap-ai-core"
+          }
+        },
+        {
+          "id": "evt_0ee6a01ae001arYHkOyFal5JTf",
+          "type": "catalog.updated",
+          "properties": {}
+        },
+        {
+          "id": "evt_0ee6a00a00021RHyFcX3T364D2",
+          "type": "plugin.added",
+          "properties": {
+            "id": "togetherai"
+          }
+        },
+        {
+          "id": "evt_0ee6a01af001SpTXtVnOo0zXUA",
+          "type": "plugin.added",
+          "properties": {
+            "id": "vercel"
+          }
+        },
+        {
+          "id": "evt_0ee6a01b000165R909kyxlpq9j",
+          "type": "plugin.added",
+          "properties": {
+            "id": "venice"
+          }
+        },
+        {
+          "id": "evt_0ee6a01b0002rr0wRlNUYqQHqC",
+          "type": "plugin.added",
+          "properties": {
+            "id": "xai"
+          }
+        },
+        {
+          "id": "evt_0ee6a01b1001Tm6Kw8n3MQfn3a",
+          "type": "plugin.added",
+          "properties": {
+            "id": "zenmux"
+          }
+        },
+        {
+          "id": "evt_0ee6a01b100219Q8V0xyOIapOh",
+          "type": "plugin.added",
+          "properties": {
+            "id": "dynamic-provider"
+          }
+        },
+        {
+          "id": "evt_0ee6a01b4001mcizWbCzx7uaO1",
+          "type": "plugin.added",
+          "properties": {
+            "id": "config-plugin"
+          }
+        },
+        {
+          "id": "evt_0ee6a01b5001TCqi4QJhPeS3CF",
+          "type": "plugin.added",
+          "properties": {
+            "id": "config-provider"
+          }
+        },
+        {
+          "id": "evt_0ee6a01b600126ad2czlrLVv6Q",
+          "type": "plugin.added",
+          "properties": {
+            "id": "variant"
+          }
+        },
+        {
+          "id": "evt_0ee6a01b7001UTaZcb3SrN915W",
+          "type": "reference.updated",
+          "properties": {}
+        },
+        {
+          "id": "evt_0ee6a01de001LVj1qYJT13xZyF",
+          "type": "integration.updated",
+          "properties": {}
+        },
+        {
+          "id": "evt_0ee6a0291001tEDh5fJ1mHTl6L",
+          "type": "catalog.updated",
+          "properties": {}
+        },
+        {
+          "id": "evt_0ee6a02a5001eAUCYkWaYhCiJF",
+          "type": "session.status",
+          "properties": {
+            "sessionID": "ses_f119601cdffeK8Ja7GvJe4qvDK",
+            "status": {
+              "type": "busy"
+            }
+          }
+        },
+        {
+          "id": "evt_0ee6a06b3001AbcSo9BYIWdsfY",
+          "type": "session.error",
+          "properties": {
+            "sessionID": "ses_f119601cdffeK8Ja7GvJe4qvDK",
+            "error": {
+              "name": "APIError",
+              "data": {
+                "message": "This tt-web- key only works inside the TokenTable website. To use TokenTable from Cursor, Claude Code or other agents, upgrade to Solo or above — a tt-live- API key will then appear in your dashboard. https://tokentable.asia/en/pricing ｜ 這把 tt-web- 鑰匙只能在 TokenTable 網站內使用。要在 Cursor、Claude Code 等 agent 裡使用，請升級到 Solo 以上方案，升級後會員中心會自動出現 tt-live- API 鑰匙。 ｜ 这把 tt-web- 密钥只能在 TokenTable 网站内使用。要在 Cursor、Claude Code 等 agent 中使用，请升级到 Solo 及以上方案，升级后会员中心会自动出现 tt-live- API 密钥。",
+                "statusCode": 403,
+                "isRetryable": false,
+                "responseHeaders": {
+                  "access-control-allow-credentials": "true",
+                  "alt-svc": "h3=\":443\"; ma=86400",
+                  "cf-cache-status": "DYNAMIC",
+                  "cf-ray": "a42d07af4c1bdfe3-SIN",
+                  "connection": "keep-alive",
+                  "content-encoding": "zstd",
+                  "content-type": "application/json; charset=utf-8",
+                  "date": "Tue, 29 Sep 2026 18:25:22 GMT",
+                  "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+                  "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=w03sKEPpdbj9Rv16aF%2BBX9%2BT2C12wK6WiN4Bj%2F2XnmFYZMKoI9zSPOUXo4n5phmYv2%2FNRNpmbaGEo4YkeWcUyAkfdkpTTs0l7M7AmQTTR5a%2Fmv9eL%2BwWmE7kurCCzUSKVz04270NWQqrTKnVHxU%3D\"}]}",
+                  "server": "cloudflare",
+                  "transfer-encoding": "chunked",
+                  "vary": "Origin"
+                },
+                "responseBody": "{\"error\":{\"message\":\"This tt-web- key only works inside the TokenTable website. To use TokenTable from Cursor, Claude Code or other agents, upgrade to Solo or above — a tt-live- API key will then appear in your dashboard. https://tokentable.asia/en/pricing ｜ 這把 tt-web- 鑰匙只能在 TokenTable 網站內使用。要在 Cursor、Claude Code 等 agent 裡使用，請升級到 Solo 以上方案，升級後會員中心會自動出現 tt-live- API 鑰匙。 ｜ 这把 tt-web- 密钥只能在 TokenTable 网站内使用。要在 Cursor、Claude Code 等 agent 中使用，请升级到 Solo 及以上方案，升级后会员中心会自动出现 tt-live- API 密钥。\",\"type\":\"permission_error\",\"code\":\"web_key_api_access_requires_paid_plan\",\"upgrade_url\":\"https://tokentable.asia/en/pricing\"}}",
+                "metadata": {
+                  "url": "https://tokentable.asia/v1/chat/completions"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "evt_0ee6a06b30023QoKvW0zt9KOUi",
+          "type": "session.status",
+          "properties": {
+            "sessionID": "ses_f119601cdffeK8Ja7GvJe4qvDK",
+            "status": {
+              "type": "idle"
+            }
+          }
+        },
+        {
+          "id": "evt_0ee6a06b3003MAVX384XxQJzmO",
+          "type": "session.idle",
+          "properties": {
+            "sessionID": "ses_f119601cdffeK8Ja7GvJe4qvDK"
+          }
+        },
+        {
+          "id": "evt_0ee6a06b400158YaSQQhS5U2GE",
+          "type": "message.updated",
+          "properties": {
+            "sessionID": "ses_f119601cdffeK8Ja7GvJe4qvDK",
+            "info": {
+              "id": "msg_0ee69fe970012VcQ9gobdZ9SSd",
+              "parentID": "msg_0ee69fe74001DD7rtQXL7WH0Wz",
+              "role": "assistant",
+              "mode": "build",
+              "agent": "build",
+              "path": {
+                "cwd": "D:\\CODE\\Runtime\\Python\\Temp\\tele-smoke-9NicZY",
+                "root": "/"
+              },
+              "cost": 0,
+              "tokens": {
+                "input": 0,
+                "output": 0,
+                "reasoning": 0,
+                "cache": {
+                  "read": 0,
+                  "write": 0
+                }
+              },
+              "modelID": "laude Opus 5",
+              "providerID": "test",
+              "time": {
+                "created": 1790706318999,
+                "completed": 1790706321076
+              },
+              "sessionID": "ses_f119601cdffeK8Ja7GvJe4qvDK",
+              "error": {
+                "name": "APIError",
+                "data": {
+                  "message": "This tt-web- key only works inside the TokenTable website. To use TokenTable from Cursor, Claude Code or other agents, upgrade to Solo or above — a tt-live- API key will then appear in your dashboard. https://tokentable.asia/en/pricing ｜ 這把 tt-web- 鑰匙只能在 TokenTable 網站內使用。要在 Cursor、Claude Code 等 agent 裡使用，請升級到 Solo 以上方案，升級後會員中心會自動出現 tt-live- API 鑰匙。 ｜ 这把 tt-web- 密钥只能在 TokenTable 网站内使用。要在 Cursor、Claude Code 等 agent 中使用，请升级到 Solo 及以上方案，升级后会员中心会自动出现 tt-live- API 密钥。",
+                  "statusCode": 403,
+                  "isRetryable": false,
+                  "responseHeaders": {
+                    "access-control-allow-credentials": "true",
+                    "alt-svc": "h3=\":443\"; ma=86400",
+                    "cf-cache-status": "DYNAMIC",
+                    "cf-ray": "a42d07af4c1bdfe3-SIN",
+                    "connection": "keep-alive",
+                    "content-encoding": "zstd",
+                    "content-type": "application/json; charset=utf-8",
+                    "date": "Tue, 29 Sep 2026 18:25:22 GMT",
+                    "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+                    "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=w03sKEPpdbj9Rv16aF%2BBX9%2BT2C12wK6WiN4Bj%2F2XnmFYZMKoI9zSPOUXo4n5phmYv2%2FNRNpmbaGEo4YkeWcUyAkfdkpTTs0l7M7AmQTTR5a%2Fmv9eL%2BwWmE7kurCCzUSKVz04270NWQqrTKnVHxU%3D\"}]}",
+                    "server": "cloudflare",
+                    "transfer-encoding": "chunked",
+                    "vary": "Origin"
+                  },
+                  "responseBody": "{\"error\":{\"message\":\"This tt-web- key only works inside the TokenTable website. To use TokenTable from Cursor, Claude Code or other agents, upgrade to Solo or above — a tt-live- API key will then appear in your dashboard. https://tokentable.asia/en/pricing ｜ 這把 tt-web- 鑰匙只能在 TokenTable 網站內使用。要在 Cursor、Claude Code 等 agent 裡使用，請升級到 Solo 以上方案，升級後會員中心會自動出現 tt-live- API 鑰匙。 ｜ 这把 tt-web- 密钥只能在 TokenTable 网站内使用。要在 Cursor、Claude Code 等 agent 中使用，请升级到 Solo 及以上方案，升级后会员中心会自动出现 tt-live- API 密钥。\",\"type\":\"permission_error\",\"code\":\"web_key_api_access_requires_paid_plan\",\"upgrade_url\":\"https://tokentable.asia/en/pricing\"}}",
+                  "metadata": {
+                    "url": "https://tokentable.asia/v1/chat/completions"
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "evt_0ee6a06bb001TjFeE4DwV4OE0F",
+          "type": "session.status",
+          "properties": {
+            "sessionID": "ses_f119601cdffeK8Ja7GvJe4qvDK",
+            "status": {
+              "type": "idle"
+            }
+          }
+        },
+        {
+          "id": "evt_0ee6a06bb002Voow7xrMjU440W",
+          "type": "session.idle",
+          "properties": {
+            "sessionID": "ses_f119601cdffeK8Ja7GvJe4qvDK"
+          }
+        },
+        {
+          "id": "evt_0ee6a2586001s60zYlcRY4ipEQ",
+          "type": "server.heartbeat",
+          "properties": {}
+        },
+        {
+          "id": "evt_0ee6a4ca3001cIrbQCjsH3QK9r",
+          "type": "server.heartbeat",
+          "properties": {}
+        },
+        {
+          "id": "evt_0ee6a73fe001oWEkj2ssptFow2",
+          "type": "server.heartbeat",
+          "properties": {}
+        },
+        {
+          "id": "evt_0ee6a9b15001fSsayKWCSR3HHA",
+          "type": "server.heartbeat",
+          "properties": {}
+        }
+      ],
+      "kind": "harmless:test/laude Opus 5"
+    },
+    {
+      "events": [
+        {
+          "id": "evt_0ee6a9b5d001gD0nTJMMb7YWQO",
+          "type": "server.connected",
+          "properties": {}
+        },
+        {
+          "id": "evt_0ee6a9b63001bdQ3N1x0qWNZW2",
+          "type": "session.updated",
+          "properties": {
+            "sessionID": "ses_f119564b1ffeUPzTLnupX95qzK",
+            "info": {
+              "id": "ses_f119564b1ffeUPzTLnupX95qzK",
+              "slug": "cosmic-panda",
+              "projectID": "global",
+              "directory": "D:\\CODE\\Runtime\\Python\\Temp\\tele-smoke-9NicZY",
+              "path": "CODE/Runtime/Python/Temp/tele-smoke-9NicZY",
+              "title": "smoke-ok",
+              "agent": "build",
+              "model": {
+                "id": "gpt-6-luna-free",
+                "providerID": "openai_api",
+                "variant": "default"
+              },
+              "version": "1.18.33",
+              "cost": 0,
+              "tokens": {
+                "input": 0,
+                "output": 0,
+                "reasoning": 0,
+                "cache": {
+                  "read": 0,
+                  "write": 0
+                }
+              },
+              "time": {
+                "created": 1790706359118,
+                "updated": 1790706359138
+              }
+            }
+          }
+        },
+        {
+          "id": "evt_0ee6a9b66001kLK6y0fVWOXSfl",
+          "type": "message.updated",
+          "properties": {
+            "sessionID": "ses_f119564b1ffeUPzTLnupX95qzK",
+            "info": {
+              "id": "msg_0ee6a9b620018eqPjsWpAVaJNI",
+              "role": "user",
+              "sessionID": "ses_f119564b1ffeUPzTLnupX95qzK",
+              "time": {
+                "created": 1790706359138
+              },
+              "agent": "build",
+              "model": {
+                "providerID": "openai_api",
+                "modelID": "gpt-6-luna-free"
+              }
+            }
+          }
+        },
+        {
+          "id": "evt_0ee6a9b68001yLRdE2gk5yX0LH",
+          "type": "message.part.updated",
+          "properties": {
+            "sessionID": "ses_f119564b1ffeUPzTLnupX95qzK",
+            "part": {
+              "type": "text",
+              "text": "trả lời đúng một chữ OK",
+              "messageID": "msg_0ee6a9b620018eqPjsWpAVaJNI",
+              "sessionID": "ses_f119564b1ffeUPzTLnupX95qzK",
+              "id": "prt_0ee6a9b66001Wlm3VbPIa8VmFr"
+            },
+            "time": 1790706359144
+          }
+        },
+        {
+          "id": "evt_0ee6a9b6c001Tc3i65ST734vaB",
+          "type": "session.updated",
+          "properties": {
+            "sessionID": "ses_f119564b1ffeUPzTLnupX95qzK",
+            "info": {
+              "id": "ses_f119564b1ffeUPzTLnupX95qzK",
+              "slug": "cosmic-panda",
+              "projectID": "global",
+              "directory": "D:\\CODE\\Runtime\\Python\\Temp\\tele-smoke-9NicZY",
+              "path": "CODE/Runtime/Python/Temp/tele-smoke-9NicZY",
+              "title": "smoke-ok",
+              "agent": "build",
+              "model": {
+                "id": "gpt-6-luna-free",
+                "providerID": "openai_api",
+                "variant": "default"
+              },
+              "version": "1.18.33",
+              "cost": 0,
+              "tokens": {
+                "input": 0,
+                "output": 0,
+                "reasoning": 0,
+                "cache": {
+                  "read": 0,
+                  "write": 0
+                }
+              },
+              "time": {
+                "created": 1790706359118,
+                "updated": 1790706359147
+              }
+            }
+          }
+        },
+        {
+          "id": "evt_0ee6a9b7a001mgtuNu68B7iMXT",
+          "type": "session.status",
+          "properties": {
+            "sessionID": "ses_f119564b1ffeUPzTLnupX95qzK",
+            "status": {
+              "type": "busy"
+            }
+          }
+        },
+        {
+          "id": "evt_0ee6a9b7c001XNob6HFTeANmu8",
+          "type": "message.updated",
+          "properties": {
+            "sessionID": "ses_f119564b1ffeUPzTLnupX95qzK",
+            "info": {
+              "id": "msg_0ee6a9b7c0010FnJKQUm3cxI2P",
+              "parentID": "msg_0ee6a9b620018eqPjsWpAVaJNI",
+              "role": "assistant",
+              "mode": "build",
+              "agent": "build",
+              "path": {
+                "cwd": "D:\\CODE\\Runtime\\Python\\Temp\\tele-smoke-9NicZY",
+                "root": "/"
+              },
+              "cost": 0,
+              "tokens": {
+                "input": 0,
+                "output": 0,
+                "reasoning": 0,
+                "cache": {
+                  "read": 0,
+                  "write": 0
+                }
+              },
+              "modelID": "gpt-6-luna-free",
+              "providerID": "openai_api",
+              "time": {
+                "created": 1790706359164
+              },
+              "sessionID": "ses_f119564b1ffeUPzTLnupX95qzK"
+            }
+          }
+        },
+        {
+          "id": "evt_0ee6a9b8e0010ip5tb4M4vqKKS",
+          "type": "session.updated",
+          "properties": {
+            "sessionID": "ses_f119564b1ffeUPzTLnupX95qzK",
+            "info": {
+              "id": "ses_f119564b1ffeUPzTLnupX95qzK",
+              "slug": "cosmic-panda",
+              "projectID": "global",
+              "directory": "D:\\CODE\\Runtime\\Python\\Temp\\tele-smoke-9NicZY",
+              "path": "CODE/Runtime/Python/Temp/tele-smoke-9NicZY",
+              "title": "smoke-ok",
+              "agent": "build",
+              "model": {
+                "id": "gpt-6-luna-free",
+                "providerID": "openai_api",
+                "variant": "default"
+              },
+              "version": "1.18.33",
+              "summary": {
+                "additions": 0,
+                "deletions": 0,
+                "files": 0
+              },
+              "cost": 0,
+              "tokens": {
+                "input": 0,
+                "output": 0,
+                "reasoning": 0,
+                "cache": {
+                  "read": 0,
+                  "write": 0
+                }
+              },
+              "time": {
+                "created": 1790706359118,
+                "updated": 1790706359181
+              }
+            }
+          }
+        },
+        {
+          "id": "evt_0ee6a9b9000112CIlnT2WP2Cul",
+          "type": "session.diff",
+          "properties": {
+            "sessionID": "ses_f119564b1ffeUPzTLnupX95qzK",
+            "diff": []
+          }
+        },
+        {
+          "id": "evt_0ee6a9b91001EnsFMyhliOtbzW",
+          "type": "message.updated",
+          "properties": {
+            "sessionID": "ses_f119564b1ffeUPzTLnupX95qzK",
+            "info": {
+              "role": "user",
+              "time": {
+                "created": 1790706359138
+              },
+              "agent": "build",
+              "model": {
+                "providerID": "openai_api",
+                "modelID": "gpt-6-luna-free"
+              },
+              "id": "msg_0ee6a9b620018eqPjsWpAVaJNI",
+              "sessionID": "ses_f119564b1ffeUPzTLnupX95qzK",
+              "summary": {
+                "diffs": []
+              }
+            }
+          }
+        },
+        {
+          "id": "evt_0ee6a9b9f001z4IQ8A2GUTncxI",
+          "type": "session.status",
+          "properties": {
+            "sessionID": "ses_f119564b1ffeUPzTLnupX95qzK",
+            "status": {
+              "type": "busy"
+            }
+          }
+        },
+        {
+          "id": "evt_0ee6aa371001ycJaRbZQnmcXX2",
+          "type": "session.status",
+          "properties": {
+            "sessionID": "ses_f119564b1ffeUPzTLnupX95qzK",
+            "status": {
+              "type": "retry",
+              "attempt": 1,
+              "message": "Unknown model. See apmix.ai/models for the current list.",
+              "next": 1790706363215
+            }
+          }
+        },
+        {
+          "id": "evt_0ee6aab55001UVa4bfD7k5jK1m",
+          "type": "session.status",
+          "properties": {
+            "sessionID": "ses_f119564b1ffeUPzTLnupX95qzK",
+            "status": {
+              "type": "busy"
+            }
+          }
+        },
+        {
+          "id": "evt_0ee6ab32e001912NQ20Rxk5SXJ",
+          "type": "session.status",
+          "properties": {
+            "sessionID": "ses_f119564b1ffeUPzTLnupX95qzK",
+            "status": {
+              "type": "retry",
+              "attempt": 2,
+              "message": "Unknown model. See apmix.ai/models for the current list.",
+              "next": 1790706369962
+            }
+          }
+        },
+        {
+          "id": "evt_0ee6ac284001VaD7VMpdDWhi6F",
+          "type": "server.heartbeat",
+          "properties": {}
+        },
+        {
+          "id": "evt_0ee6ac5c7001BJDC9XZzokMt5F",
+          "type": "session.status",
+          "properties": {
+            "sessionID": "ses_f119564b1ffeUPzTLnupX95qzK",
+            "status": {
+              "type": "busy"
+            }
+          }
+        },
+        {
+          "id": "evt_0ee6ad659001MnJAYxbthDWd9l",
+          "type": "session.status",
+          "properties": {
+            "sessionID": "ses_f119564b1ffeUPzTLnupX95qzK",
+            "status": {
+              "type": "retry",
+              "attempt": 3,
+              "message": "Unknown model. See apmix.ai/models for the current list.",
+              "next": 1790706382294
+            }
+          }
+        },
+        {
+          "id": "evt_0ee6ae99f001OBB6qiAXjoLqoP",
+          "type": "server.heartbeat",
+          "properties": {}
+        },
+        {
+          "id": "evt_0ee6af5f00012lX6sVBCvMzPB1",
+          "type": "session.status",
+          "properties": {
+            "sessionID": "ses_f119564b1ffeUPzTLnupX95qzK",
+            "status": {
+              "type": "busy"
+            }
+          }
+        },
+        {
+          "id": "evt_0ee6b10c7001FUONkfXsdVgYhO",
+          "type": "server.heartbeat",
+          "properties": {}
+        },
+        {
+          "id": "evt_0ee6b2cc6001dF4rFrqQ5m343P",
+          "type": "session.status",
+          "properties": {
+            "sessionID": "ses_f119564b1ffeUPzTLnupX95qzK",
+            "status": {
+              "type": "retry",
+              "attempt": 4,
+              "message": "Unknown model. See apmix.ai/models for the current list.",
+              "next": 1790706416283
+            }
+          }
+        },
+        {
+          "id": "evt_0ee6b37fc001d1o4RTXECuV6mu",
+          "type": "server.heartbeat",
+          "properties": {}
+        }
+      ],
+      "kind": "harmless:openai_api/gpt-6-luna-free"
+    },
+    {
+      "events": [
+        {
+          "id": "evt_0ee6b384a001ztCP5gczoB7Shj",
+          "type": "server.connected",
+          "properties": {}
+        },
+        {
+          "id": "evt_0ee6b384f001dQsGNQK0FoAyFD",
+          "type": "session.updated",
+          "properties": {
+            "sessionID": "ses_f1194c7c3ffeGU0A22u2RTRu8r",
+            "info": {
+              "id": "ses_f1194c7c3ffeGU0A22u2RTRu8r",
+              "slug": "brave-planet",
+              "projectID": "global",
+              "directory": "D:\\CODE\\Runtime\\Python\\Temp\\tele-smoke-9NicZY",
+              "path": "CODE/Runtime/Python/Temp/tele-smoke-9NicZY",
+              "title": "smoke-ok",
+              "agent": "build",
+              "model": {
+                "id": "deepseek-v4-flash-free",
+                "providerID": "custom",
+                "variant": "default"
+              },
+              "version": "1.18.33",
+              "cost": 0,
+              "tokens": {
+                "input": 0,
+                "output": 0,
+                "reasoning": 0,
+                "cache": {
+                  "read": 0,
+                  "write": 0
+                }
+              },
+              "time": {
+                "created": 1790706399292,
+                "updated": 1790706399310
+              }
+            }
+          }
+        },
+        {
+          "id": "evt_0ee6b38520014hF0s5AcWhsnTz",
+          "type": "message.updated",
+          "properties": {
+            "sessionID": "ses_f1194c7c3ffeGU0A22u2RTRu8r",
+            "info": {
+              "id": "msg_0ee6b384e001vAKGsvPCJ2mhTR",
+              "role": "user",
+              "sessionID": "ses_f1194c7c3ffeGU0A22u2RTRu8r",
+              "time": {
+                "created": 1790706399310
+              },
+              "agent": "build",
+              "model": {
+                "providerID": "custom",
+                "modelID": "deepseek-v4-flash-free"
+              }
+            }
+          }
+        },
+        {
+          "id": "evt_0ee6b3854001WVaMU4XfUvMJPR",
+          "type": "message.part.updated",
+          "properties": {
+            "sessionID": "ses_f1194c7c3ffeGU0A22u2RTRu8r",
+            "part": {
+              "type": "text",
+              "text": "trả lời đúng một chữ OK",
+              "messageID": "msg_0ee6b384e001vAKGsvPCJ2mhTR",
+              "sessionID": "ses_f1194c7c3ffeGU0A22u2RTRu8r",
+              "id": "prt_0ee6b38520014OZ5xc51J4mqT0"
+            },
+            "time": 1790706399316
+          }
+        },
+        {
+          "id": "evt_0ee6b3857001cYebp6IXHWbtln",
+          "type": "session.updated",
+          "properties": {
+            "sessionID": "ses_f1194c7c3ffeGU0A22u2RTRu8r",
+            "info": {
+              "id": "ses_f1194c7c3ffeGU0A22u2RTRu8r",
+              "slug": "brave-planet",
+              "projectID": "global",
+              "directory": "D:\\CODE\\Runtime\\Python\\Temp\\tele-smoke-9NicZY",
+              "path": "CODE/Runtime/Python/Temp/tele-smoke-9NicZY",
+              "title": "smoke-ok",
+              "agent": "build",
+              "model": {
+                "id": "deepseek-v4-flash-free",
+                "providerID": "custom",
+                "variant": "default"
+              },
+              "version": "1.18.33",
+              "cost": 0,
+              "tokens": {
+                "input": 0,
+                "output": 0,
+                "reasoning": 0,
+                "cache": {
+                  "read": 0,
+                  "write": 0
+                }
+              },
+              "time": {
+                "created": 1790706399292,
+                "updated": 1790706399318
+              }
+            }
+          }
+        },
+        {
+          "id": "evt_0ee6b3866001T7N0HaIAxQu4aL",
+          "type": "session.status",
+          "properties": {
+            "sessionID": "ses_f1194c7c3ffeGU0A22u2RTRu8r",
+            "status": {
+              "type": "busy"
+            }
+          }
+        },
+        {
+          "id": "evt_0ee6b3868001clmZ1ZIX58IS3B",
+          "type": "message.updated",
+          "properties": {
+            "sessionID": "ses_f1194c7c3ffeGU0A22u2RTRu8r",
+            "info": {
+              "id": "msg_0ee6b3868001n3PpFDODOFLhce",
+              "parentID": "msg_0ee6b384e001vAKGsvPCJ2mhTR",
+              "role": "assistant",
+              "mode": "build",
+              "agent": "build",
+              "path": {
+                "cwd": "D:\\CODE\\Runtime\\Python\\Temp\\tele-smoke-9NicZY",
+                "root": "/"
+              },
+              "cost": 0,
+              "tokens": {
+                "input": 0,
+                "output": 0,
+                "reasoning": 0,
+                "cache": {
+                  "read": 0,
+                  "write": 0
+                }
+              },
+              "modelID": "deepseek-v4-flash-free",
+              "providerID": "custom",
+              "time": {
+                "created": 1790706399336
+              },
+              "sessionID": "ses_f1194c7c3ffeGU0A22u2RTRu8r"
+            }
+          }
+        },
+        {
+          "id": "evt_0ee6b3876001cp1gPYEWu1Xge0",
+          "type": "session.updated",
+          "properties": {
+            "sessionID": "ses_f1194c7c3ffeGU0A22u2RTRu8r",
+            "info": {
+              "id": "ses_f1194c7c3ffeGU0A22u2RTRu8r",
+              "slug": "brave-planet",
+              "projectID": "global",
+              "directory": "D:\\CODE\\Runtime\\Python\\Temp\\tele-smoke-9NicZY",
+              "path": "CODE/Runtime/Python/Temp/tele-smoke-9NicZY",
+              "title": "smoke-ok",
+              "agent": "build",
+              "model": {
+                "id": "deepseek-v4-flash-free",
+                "providerID": "custom",
+                "variant": "default"
+              },
+              "version": "1.18.33",
+              "summary": {
+                "additions": 0,
+                "deletions": 0,
+                "files": 0
+              },
+              "cost": 0,
+              "tokens": {
+                "input": 0,
+                "output": 0,
+                "reasoning": 0,
+                "cache": {
+                  "read": 0,
+                  "write": 0
+                }
+              },
+              "time": {
+                "created": 1790706399292,
+                "updated": 1790706399349
+              }
+            }
+          }
+        },
+        {
+          "id": "evt_0ee6b3878001eofwJEskyxTcYf",
+          "type": "session.diff",
+          "properties": {
+            "sessionID": "ses_f1194c7c3ffeGU0A22u2RTRu8r",
+            "diff": []
+          }
+        },
+        {
+          "id": "evt_0ee6b3879001kulY9n1v98Ter1",
+          "type": "message.updated",
+          "properties": {
+            "sessionID": "ses_f1194c7c3ffeGU0A22u2RTRu8r",
+            "info": {
+              "role": "user",
+              "time": {
+                "created": 1790706399310
+              },
+              "agent": "build",
+              "model": {
+                "providerID": "custom",
+                "modelID": "deepseek-v4-flash-free"
+              },
+              "id": "msg_0ee6b384e001vAKGsvPCJ2mhTR",
+              "sessionID": "ses_f1194c7c3ffeGU0A22u2RTRu8r",
+              "summary": {
+                "diffs": []
+              }
+            }
+          }
+        },
+        {
+          "id": "evt_0ee6b3885001H9U0l6UOG5K5C9",
+          "type": "session.status",
+          "properties": {
+            "sessionID": "ses_f1194c7c3ffeGU0A22u2RTRu8r",
+            "status": {
+              "type": "busy"
+            }
+          }
+        },
+        {
+          "id": "evt_0ee6b510f0012XuUmXtHGqb6Y1",
+          "type": "message.part.updated",
+          "properties": {
+            "sessionID": "ses_f1194c7c3ffeGU0A22u2RTRu8r",
+            "part": {
+              "id": "prt_0ee6b510f0013yCHe9U73kO4cf",
+              "messageID": "msg_0ee6b3868001n3PpFDODOFLhce",
+              "sessionID": "ses_f1194c7c3ffeGU0A22u2RTRu8r",
+              "type": "step-start"
+            },
+            "time": 1790706405647
+          }
+        },
+        {
+          "id": "evt_0ee6b51150010OpQrCqL4ECsgt",
+          "type": "message.part.updated",
+          "properties": {
+            "sessionID": "ses_f1194c7c3ffeGU0A22u2RTRu8r",
+            "part": {
+              "id": "prt_0ee6b5115001ASQBunXTe4x27M",
+              "messageID": "msg_0ee6b3868001n3PpFDODOFLhce",
+              "sessionID": "ses_f1194c7c3ffeGU0A22u2RTRu8r",
+              "type": "text",
+              "text": "",
+              "time": {
+                "start": 1790706405653
+              }
+            },
+            "time": 1790706405653
+          }
+        },
+        {
+          "id": "evt_0ee6b5118001xTfyVnyD3S6rb6",
+          "type": "message.part.delta",
+          "properties": {
+            "sessionID": "ses_f1194c7c3ffeGU0A22u2RTRu8r",
+            "messageID": "msg_0ee6b3868001n3PpFDODOFLhce",
+            "partID": "prt_0ee6b5115001ASQBunXTe4x27M",
+            "field": "text",
+            "delta": "OK"
+          }
+        },
+        {
+          "id": "evt_0ee6b511a001zYWFCyVD68wjZf",
+          "type": "message.part.updated",
+          "properties": {
+            "sessionID": "ses_f1194c7c3ffeGU0A22u2RTRu8r",
+            "part": {
+              "id": "prt_0ee6b5115001ASQBunXTe4x27M",
+              "messageID": "msg_0ee6b3868001n3PpFDODOFLhce",
+              "sessionID": "ses_f1194c7c3ffeGU0A22u2RTRu8r",
+              "type": "text",
+              "text": "OK",
+              "time": {
+                "start": 1790706405653,
+                "end": 1790706405658
+              }
+            },
+            "time": 1790706405658
+          }
+        },
+        {
+          "id": "evt_0ee6b511f001iMVigH1rOhPPiK",
+          "type": "message.part.updated",
+          "properties": {
+            "sessionID": "ses_f1194c7c3ffeGU0A22u2RTRu8r",
+            "part": {
+              "id": "prt_0ee6b511f001xRh39AT600M30j",
+              "reason": "stop",
+              "messageID": "msg_0ee6b3868001n3PpFDODOFLhce",
+              "sessionID": "ses_f1194c7c3ffeGU0A22u2RTRu8r",
+              "type": "step-finish",
+              "tokens": {
+                "total": 7888,
+                "input": 5984,
+                "output": 2,
+                "reasoning": 0,
+                "cache": {
+                  "write": 0,
+                  "read": 1902
+                }
+              },
+              "cost": 0
+            },
+            "time": 1790706405663
+          }
+        },
+        {
+          "id": "evt_0ee6b5123001TfYM5kCVay1sSk",
+          "type": "message.updated",
+          "properties": {
+            "sessionID": "ses_f1194c7c3ffeGU0A22u2RTRu8r",
+            "info": {
+              "id": "msg_0ee6b3868001n3PpFDODOFLhce",
+              "parentID": "msg_0ee6b384e001vAKGsvPCJ2mhTR",
+              "role": "assistant",
+              "mode": "build",
+              "agent": "build",
+              "path": {
+                "cwd": "D:\\CODE\\Runtime\\Python\\Temp\\tele-smoke-9NicZY",
+                "root": "/"
+              },
+              "cost": 0,
+              "tokens": {
+                "total": 7888,
+                "input": 5984,
+                "output": 2,
+                "reasoning": 0,
+                "cache": {
+                  "write": 0,
+                  "read": 1902
+                }
+              },
+              "modelID": "deepseek-v4-flash-free",
+              "providerID": "custom",
+              "time": {
+                "created": 1790706399336,
+                "completed": 1790706405670
+              },
+              "sessionID": "ses_f1194c7c3ffeGU0A22u2RTRu8r",
+              "finish": "stop"
+            }
+          }
+        },
+        {
+          "id": "evt_0ee6b5126001T4Z2BOzG3uGlyY",
+          "type": "message.updated",
+          "properties": {
+            "sessionID": "ses_f1194c7c3ffeGU0A22u2RTRu8r",
+            "info": {
+              "id": "msg_0ee6b3868001n3PpFDODOFLhce",
+              "parentID": "msg_0ee6b384e001vAKGsvPCJ2mhTR",
+              "role": "assistant",
+              "mode": "build",
+              "agent": "build",
+              "path": {
+                "cwd": "D:\\CODE\\Runtime\\Python\\Temp\\tele-smoke-9NicZY",
+                "root": "/"
+              },
+              "cost": 0,
+              "tokens": {
+                "total": 7888,
+                "input": 5984,
+                "output": 2,
+                "reasoning": 0,
+                "cache": {
+                  "write": 0,
+                  "read": 1902
+                }
+              },
+              "modelID": "deepseek-v4-flash-free",
+              "providerID": "custom",
+              "time": {
+                "created": 1790706399336,
+                "completed": 1790706405670
+              },
+              "sessionID": "ses_f1194c7c3ffeGU0A22u2RTRu8r",
+              "finish": "stop"
+            }
+          }
+        },
+        {
+          "id": "evt_0ee6b5128001053Ifc8bX2tojC",
+          "type": "session.status",
+          "properties": {
+            "sessionID": "ses_f1194c7c3ffeGU0A22u2RTRu8r",
+            "status": {
+              "type": "busy"
+            }
+          }
+        },
+        {
+          "id": "evt_0ee6b512a001ZD7bnWFWwlvvpV",
+          "type": "session.status",
+          "properties": {
+            "sessionID": "ses_f1194c7c3ffeGU0A22u2RTRu8r",
+            "status": {
+              "type": "idle"
+            }
+          }
+        },
+        {
+          "id": "evt_0ee6b512a0027orkvlChMPdJnl",
+          "type": "session.idle",
+          "properties": {
+            "sessionID": "ses_f1194c7c3ffeGU0A22u2RTRu8r"
+          }
+        },
+        {
+          "id": "evt_0ee6b512c00136SaSOm9v8t7QY",
+          "type": "session.updated",
+          "properties": {
+            "sessionID": "ses_f1194c7c3ffeGU0A22u2RTRu8r",
+            "info": {
+              "id": "ses_f1194c7c3ffeGU0A22u2RTRu8r",
+              "slug": "brave-planet",
+              "projectID": "global",
+              "directory": "D:\\CODE\\Runtime\\Python\\Temp\\tele-smoke-9NicZY",
+              "path": "CODE/Runtime/Python/Temp/tele-smoke-9NicZY",
+              "title": "smoke-ok",
+              "agent": "build",
+              "model": {
+                "id": "deepseek-v4-flash-free",
+                "providerID": "custom",
+                "variant": "default"
+              },
+              "version": "1.18.33",
+              "summary": {
+                "additions": 0,
+                "deletions": 0,
+                "files": 0
+              },
+              "cost": 0,
+              "tokens": {
+                "input": 5984,
+                "output": 2,
+                "reasoning": 0,
+                "cache": {
+                  "read": 1902,
+                  "write": 0
+                }
+              },
+              "time": {
+                "created": 1790706399292,
+                "updated": 1790706405675
+              }
+            }
+          }
+        },
+        {
+          "id": "evt_0ee6b512e001DbXSYQeUOQBcjF",
+          "type": "session.diff",
+          "properties": {
+            "sessionID": "ses_f1194c7c3ffeGU0A22u2RTRu8r",
+            "diff": []
+          }
+        },
+        {
+          "id": "evt_0ee6b512f001QJcPQAk4zXR8KN",
+          "type": "message.updated",
+          "properties": {
+            "sessionID": "ses_f1194c7c3ffeGU0A22u2RTRu8r",
+            "info": {
+              "role": "user",
+              "time": {
+                "created": 1790706399310
+              },
+              "agent": "build",
+              "model": {
+                "providerID": "custom",
+                "modelID": "deepseek-v4-flash-free"
+              },
+              "summary": {
+                "diffs": []
+              },
+              "id": "msg_0ee6b384e001vAKGsvPCJ2mhTR",
+              "sessionID": "ses_f1194c7c3ffeGU0A22u2RTRu8r"
+            }
+          }
+        },
+        {
+          "id": "evt_0ee6b5f650011dTmINkTLxOI15",
+          "type": "server.heartbeat",
+          "properties": {}
+        },
+        {
+          "id": "evt_0ee6b8695001qp3ExaduDioxau",
+          "type": "server.heartbeat",
+          "properties": {}
+        },
+        {
+          "id": "evt_0ee6badc8001zpIytfcRFNVIwd",
+          "type": "server.heartbeat",
+          "properties": {}
+        },
+        {
+          "id": "evt_0ee6bd4ee001MNp2eQLF7W4KUi",
+          "type": "server.heartbeat",
+          "properties": {}
+        }
+      ],
+      "kind": "harmless:custom/deepseek-v4-flash-free"
+    },
+    {
+      "events": [
+        {
+          "id": "evt_0ee6bd528001uT6VQOmnVD5HCf",
+          "type": "server.connected",
+          "properties": {}
+        },
+        {
+          "id": "evt_0ee6bd52e001qyZK3gWIlwLwpI",
+          "type": "session.updated",
+          "properties": {
+            "sessionID": "ses_f11942ae3ffepgw55SC4823E92",
+            "info": {
+              "id": "ses_f11942ae3ffepgw55SC4823E92",
+              "slug": "nimble-mountain",
+              "projectID": "global",
+              "directory": "D:\\CODE\\Runtime\\Python\\Temp\\tele-smoke-9NicZY",
+              "path": "CODE/Runtime/Python/Temp/tele-smoke-9NicZY",
+              "title": "smoke-permission",
+              "agent": "build",
+              "model": {
+                "id": "laude Opus 5",
+                "providerID": "test",
+                "variant": "default"
+              },
+              "version": "1.18.33",
+              "cost": 0,
+              "tokens": {
+                "input": 0,
+                "output": 0,
+                "reasoning": 0,
+                "cache": {
+                  "read": 0,
+                  "write": 0
+                }
+              },
+              "time": {
+                "created": 1790706439452,
+                "updated": 1790706439469
+              }
+            }
+          }
+        },
+        {
+          "id": "evt_0ee6bd5300010XWLVB74dpdKLe",
+          "type": "message.updated",
+          "properties": {
+            "sessionID": "ses_f11942ae3ffepgw55SC4823E92",
+            "info": {
+              "id": "msg_0ee6bd52d001nX59got63z0BoZ",
+              "role": "user",
+              "sessionID": "ses_f11942ae3ffepgw55SC4823E92",
+              "time": {
+                "created": 1790706439469
+              },
+              "agent": "build",
+              "model": {
+                "providerID": "test",
+                "modelID": "laude Opus 5"
+              }
+            }
+          }
+        },
+        {
+          "id": "evt_0ee6bd532001sfHxSNc4V81x12",
+          "type": "message.part.updated",
+          "properties": {
+            "sessionID": "ses_f11942ae3ffepgw55SC4823E92",
+            "part": {
+              "type": "text",
+              "text": "tạo file hello-smoke.txt trong thư mục hiện tại với nội dung OK",
+              "messageID": "msg_0ee6bd52d001nX59got63z0BoZ",
+              "sessionID": "ses_f11942ae3ffepgw55SC4823E92",
+              "id": "prt_0ee6bd530001k7mLlZIkiV8eom"
+            },
+            "time": 1790706439474
+          }
+        },
+        {
+          "id": "evt_0ee6bd535001H316umE5yXtr0M",
+          "type": "session.updated",
+          "properties": {
+            "sessionID": "ses_f11942ae3ffepgw55SC4823E92",
+            "info": {
+              "id": "ses_f11942ae3ffepgw55SC4823E92",
+              "slug": "nimble-mountain",
+              "projectID": "global",
+              "directory": "D:\\CODE\\Runtime\\Python\\Temp\\tele-smoke-9NicZY",
+              "path": "CODE/Runtime/Python/Temp/tele-smoke-9NicZY",
+              "title": "smoke-permission",
+              "agent": "build",
+              "model": {
+                "id": "laude Opus 5",
+                "providerID": "test",
+                "variant": "default"
+              },
+              "version": "1.18.33",
+              "cost": 0,
+              "tokens": {
+                "input": 0,
+                "output": 0,
+                "reasoning": 0,
+                "cache": {
+                  "read": 0,
+                  "write": 0
+                }
+              },
+              "time": {
+                "created": 1790706439452,
+                "updated": 1790706439476
+              }
+            }
+          }
+        },
+        {
+          "id": "evt_0ee6bd541001knlbHDvNaBkkzp",
+          "type": "session.status",
+          "properties": {
+            "sessionID": "ses_f11942ae3ffepgw55SC4823E92",
+            "status": {
+              "type": "busy"
+            }
+          }
+        },
+        {
+          "id": "evt_0ee6bd543001zr4vym8d9jqktq",
+          "type": "message.updated",
+          "properties": {
+            "sessionID": "ses_f11942ae3ffepgw55SC4823E92",
+            "info": {
+              "id": "msg_0ee6bd543001uKDPrFYodwhEe4",
+              "parentID": "msg_0ee6bd52d001nX59got63z0BoZ",
+              "role": "assistant",
+              "mode": "build",
+              "agent": "build",
+              "path": {
+                "cwd": "D:\\CODE\\Runtime\\Python\\Temp\\tele-smoke-9NicZY",
+                "root": "/"
+              },
+              "cost": 0,
+              "tokens": {
+                "input": 0,
+                "output": 0,
+                "reasoning": 0,
+                "cache": {
+                  "read": 0,
+                  "write": 0
+                }
+              },
+              "modelID": "laude Opus 5",
+              "providerID": "test",
+              "time": {
+                "created": 1790706439491
+              },
+              "sessionID": "ses_f11942ae3ffepgw55SC4823E92"
+            }
+          }
+        },
+        {
+          "id": "evt_0ee6bd548001XW6uoqhwHdjWM9",
+          "type": "session.updated",
+          "properties": {
+            "sessionID": "ses_f11942ae3ffepgw55SC4823E92",
+            "info": {
+              "id": "ses_f11942ae3ffepgw55SC4823E92",
+              "slug": "nimble-mountain",
+              "projectID": "global",
+              "directory": "D:\\CODE\\Runtime\\Python\\Temp\\tele-smoke-9NicZY",
+              "path": "CODE/Runtime/Python/Temp/tele-smoke-9NicZY",
+              "title": "smoke-permission",
+              "agent": "build",
+              "model": {
+                "id": "laude Opus 5",
+                "providerID": "test",
+                "variant": "default"
+              },
+              "version": "1.18.33",
+              "summary": {
+                "additions": 0,
+                "deletions": 0,
+                "files": 0
+              },
+              "cost": 0,
+              "tokens": {
+                "input": 0,
+                "output": 0,
+                "reasoning": 0,
+                "cache": {
+                  "read": 0,
+                  "write": 0
+                }
+              },
+              "time": {
+                "created": 1790706439452,
+                "updated": 1790706439495
+              }
+            }
+          }
+        },
+        {
+          "id": "evt_0ee6bd54a001reIPDlUQMMdUa3",
+          "type": "session.diff",
+          "properties": {
+            "sessionID": "ses_f11942ae3ffepgw55SC4823E92",
+            "diff": []
+          }
+        },
+        {
+          "id": "evt_0ee6bd54d0014iA7tsH6pfPz0M",
+          "type": "message.updated",
+          "properties": {
+            "sessionID": "ses_f11942ae3ffepgw55SC4823E92",
+            "info": {
+              "role": "user",
+              "time": {
+                "created": 1790706439469
+              },
+              "agent": "build",
+              "model": {
+                "providerID": "test",
+                "modelID": "laude Opus 5"
+              },
+              "id": "msg_0ee6bd52d001nX59got63z0BoZ",
+              "sessionID": "ses_f11942ae3ffepgw55SC4823E92",
+              "summary": {
+                "diffs": []
+              }
+            }
+          }
+        },
+        {
+          "id": "evt_0ee6bd572001nxTJ4d3N6lN6KL",
+          "type": "session.status",
+          "properties": {
+            "sessionID": "ses_f11942ae3ffepgw55SC4823E92",
+            "status": {
+              "type": "busy"
+            }
+          }
+        },
+        {
+          "id": "evt_0ee6bd75f0014yNHVQOKOHqLso",
+          "type": "session.error",
+          "properties": {
+            "sessionID": "ses_f11942ae3ffepgw55SC4823E92",
+            "error": {
+              "name": "APIError",
+              "data": {
+                "message": "This tt-web- key only works inside the TokenTable website. To use TokenTable from Cursor, Claude Code or other agents, upgrade to Solo or above — a tt-live- API key will then appear in your dashboard. https://tokentable.asia/en/pricing ｜ 這把 tt-web- 鑰匙只能在 TokenTable 網站內使用。要在 Cursor、Claude Code 等 agent 裡使用，請升級到 Solo 以上方案，升級後會員中心會自動出現 tt-live- API 鑰匙。 ｜ 这把 tt-web- 密钥只能在 TokenTable 网站内使用。要在 Cursor、Claude Code 等 agent 中使用，请升级到 Solo 及以上方案，升级后会员中心会自动出现 tt-live- API 密钥。",
+                "statusCode": 403,
+                "isRetryable": false,
+                "responseHeaders": {
+                  "access-control-allow-credentials": "true",
+                  "alt-svc": "h3=\":443\"; ma=86400",
+                  "cf-cache-status": "DYNAMIC",
+                  "cf-ray": "a42d0a964d53dfe3-SIN",
+                  "connection": "keep-alive",
+                  "content-encoding": "zstd",
+                  "content-type": "application/json; charset=utf-8",
+                  "date": "Tue, 29 Sep 2026 18:27:20 GMT",
+                  "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+                  "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=3S0gFw1MAM%2FMMXRbMci8IdRYGQaVgNkC62T6C0%2BunvzVgqtoDRjujLznpBDND6qOkJZNjs8exOA8fPgNm7yrZbdlMXftxlRMza0cz6hqHW3CQGFcNmPaQLIPNZAmtdtLFfPQ1hRV%2Bg43V8D6vyc%3D\"}]}",
+                  "server": "cloudflare",
+                  "transfer-encoding": "chunked",
+                  "vary": "Origin"
+                },
+                "responseBody": "{\"error\":{\"message\":\"This tt-web- key only works inside the TokenTable website. To use TokenTable from Cursor, Claude Code or other agents, upgrade to Solo or above — a tt-live- API key will then appear in your dashboard. https://tokentable.asia/en/pricing ｜ 這把 tt-web- 鑰匙只能在 TokenTable 網站內使用。要在 Cursor、Claude Code 等 agent 裡使用，請升級到 Solo 以上方案，升級後會員中心會自動出現 tt-live- API 鑰匙。 ｜ 这把 tt-web- 密钥只能在 TokenTable 网站内使用。要在 Cursor、Claude Code 等 agent 中使用，请升级到 Solo 及以上方案，升级后会员中心会自动出现 tt-live- API 密钥。\",\"type\":\"permission_error\",\"code\":\"web_key_api_access_requires_paid_plan\",\"upgrade_url\":\"https://tokentable.asia/en/pricing\"}}",
+                "metadata": {
+                  "url": "https://tokentable.asia/v1/chat/completions"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "evt_0ee6bd75f002nBahf9NjGVojAN",
+          "type": "session.status",
+          "properties": {
+            "sessionID": "ses_f11942ae3ffepgw55SC4823E92",
+            "status": {
+              "type": "idle"
+            }
+          }
+        },
+        {
+          "id": "evt_0ee6bd75f003smKFSRyPYxGsOq",
+          "type": "session.idle",
+          "properties": {
+            "sessionID": "ses_f11942ae3ffepgw55SC4823E92"
+          }
+        },
+        {
+          "id": "evt_0ee6bd760001tFiOGT0EWJKusl",
+          "type": "message.updated",
+          "properties": {
+            "sessionID": "ses_f11942ae3ffepgw55SC4823E92",
+            "info": {
+              "id": "msg_0ee6bd543001uKDPrFYodwhEe4",
+              "parentID": "msg_0ee6bd52d001nX59got63z0BoZ",
+              "role": "assistant",
+              "mode": "build",
+              "agent": "build",
+              "path": {
+                "cwd": "D:\\CODE\\Runtime\\Python\\Temp\\tele-smoke-9NicZY",
+                "root": "/"
+              },
+              "cost": 0,
+              "tokens": {
+                "input": 0,
+                "output": 0,
+                "reasoning": 0,
+                "cache": {
+                  "read": 0,
+                  "write": 0
+                }
+              },
+              "modelID": "laude Opus 5",
+              "providerID": "test",
+              "time": {
+                "created": 1790706439491,
+                "completed": 1790706440031
+              },
+              "sessionID": "ses_f11942ae3ffepgw55SC4823E92",
+              "error": {
+                "name": "APIError",
+                "data": {
+                  "message": "This tt-web- key only works inside the TokenTable website. To use TokenTable from Cursor, Claude Code or other agents, upgrade to Solo or above — a tt-live- API key will then appear in your dashboard. https://tokentable.asia/en/pricing ｜ 這把 tt-web- 鑰匙只能在 TokenTable 網站內使用。要在 Cursor、Claude Code 等 agent 裡使用，請升級到 Solo 以上方案，升級後會員中心會自動出現 tt-live- API 鑰匙。 ｜ 这把 tt-web- 密钥只能在 TokenTable 网站内使用。要在 Cursor、Claude Code 等 agent 中使用，请升级到 Solo 及以上方案，升级后会员中心会自动出现 tt-live- API 密钥。",
+                  "statusCode": 403,
+                  "isRetryable": false,
+                  "responseHeaders": {
+                    "access-control-allow-credentials": "true",
+                    "alt-svc": "h3=\":443\"; ma=86400",
+                    "cf-cache-status": "DYNAMIC",
+                    "cf-ray": "a42d0a964d53dfe3-SIN",
+                    "connection": "keep-alive",
+                    "content-encoding": "zstd",
+                    "content-type": "application/json; charset=utf-8",
+                    "date": "Tue, 29 Sep 2026 18:27:20 GMT",
+                    "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+                    "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=3S0gFw1MAM%2FMMXRbMci8IdRYGQaVgNkC62T6C0%2BunvzVgqtoDRjujLznpBDND6qOkJZNjs8exOA8fPgNm7yrZbdlMXftxlRMza0cz6hqHW3CQGFcNmPaQLIPNZAmtdtLFfPQ1hRV%2Bg43V8D6vyc%3D\"}]}",
+                    "server": "cloudflare",
+                    "transfer-encoding": "chunked",
+                    "vary": "Origin"
+                  },
+                  "responseBody": "{\"error\":{\"message\":\"This tt-web- key only works inside the TokenTable website. To use TokenTable from Cursor, Claude Code or other agents, upgrade to Solo or above — a tt-live- API key will then appear in your dashboard. https://tokentable.asia/en/pricing ｜ 這把 tt-web- 鑰匙只能在 TokenTable 網站內使用。要在 Cursor、Claude Code 等 agent 裡使用，請升級到 Solo 以上方案，升級後會員中心會自動出現 tt-live- API 鑰匙。 ｜ 这把 tt-web- 密钥只能在 TokenTable 网站内使用。要在 Cursor、Claude Code 等 agent 中使用，请升级到 Solo 及以上方案，升级后会员中心会自动出现 tt-live- API 密钥。\",\"type\":\"permission_error\",\"code\":\"web_key_api_access_requires_paid_plan\",\"upgrade_url\":\"https://tokentable.asia/en/pricing\"}}",
+                  "metadata": {
+                    "url": "https://tokentable.asia/v1/chat/completions"
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "evt_0ee6bd765001P0UdLXgDDuMjJp",
+          "type": "session.status",
+          "properties": {
+            "sessionID": "ses_f11942ae3ffepgw55SC4823E92",
+            "status": {
+              "type": "idle"
+            }
+          }
+        },
+        {
+          "id": "evt_0ee6bd7650025k6wGu6T4xSWk8",
+          "type": "session.idle",
+          "properties": {
+            "sessionID": "ses_f11942ae3ffepgw55SC4823E92"
+          }
+        },
+        {
+          "id": "evt_0ee6bfc39001Cpi5gyg4cOPoqW",
+          "type": "server.heartbeat",
+          "properties": {}
+        },
+        {
+          "id": "evt_0ee6c2353001k2OGVOVL9GwM1i",
+          "type": "server.heartbeat",
+          "properties": {}
+        },
+        {
+          "id": "evt_0ee6c4a69001y22OMIBycxCQ9d",
+          "type": "server.heartbeat",
+          "properties": {}
+        },
+        {
+          "id": "evt_0ee6c7182001YYxxcDxNco5g85",
+          "type": "server.heartbeat",
+          "properties": {}
+        },
+        {
+          "id": "evt_0ee6c989d001r58ursqOsPOL5w",
+          "type": "server.heartbeat",
+          "properties": {}
+        },
+        {
+          "id": "evt_0ee6cbfbe001RC52cIG7DYTbhY",
+          "type": "server.heartbeat",
+          "properties": {}
+        }
+      ],
+      "kind": "permission"
+    }
+  ],
+  "defaults": {
+    "test": "laude Opus 5",
+    "openai_api": "gpt-6-luna-free",
+    "custom": "deepseek-v4-flash-free",
+    "opencode": "big-pickle"
+  },
+  "providers": [
+    {
+      "connected": true,
+      "id": "test",
+      "models": 1,
+      "name": "test",
+      "source": "config"
+    },
+    {
+      "connected": true,
+      "id": "openai_api",
+      "models": 1,
+      "name": "OpenAI-compatible",
+      "source": "config"
+    },
+    {
+      "connected": true,
+      "id": "custom",
+      "models": 1,
+      "name": "OpenAI-compatible",
+      "source": "config"
+    },
+    {
+      "connected": false,
+      "id": "opencode",
+      "models": 8,
+      "name": "OpenCode Zen",
+      "source": "custom"
+    }
+  ],
+  "picked": {
+    "modelID": "laude Opus 5",
+    "providerID": "test",
+    "reason": "connected-free-active"
+  },
+  "candidates": [
+    {
+      "modelID": "laude Opus 5",
+      "providerID": "test",
+      "reason": "connected-free-active"
+    },
+    {
+      "modelID": "gpt-6-luna-free",
+      "providerID": "openai_api",
+      "reason": "connected-free-active"
+    },
+    {
+      "modelID": "deepseek-v4-flash-free",
+      "providerID": "custom",
+      "reason": "connected-free-active"
+    }
+  ],
+  "modelErrors": [
+    {
+      "error": "answer=\"trả lời đúng một chữ OK\"",
+      "model": "test/laude Opus 5"
+    },
+    {
+      "error": "answer=\"trả lời đúng một chữ OK\"",
+      "model": "openai_api/gpt-6-luna-free"
+    },
+    {
+      "error": "answer=\"trả lời đúng một chữ OK\\nOK\"",
+      "model": "custom/deepseek-v4-flash-free"
+    }
+  ],
+  "aiContent": false
+}
